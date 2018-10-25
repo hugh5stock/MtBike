@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/IngpalSMS.Message" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/IngpalSMS.Message" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="SMSRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MessageContent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MsgSupplier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SMSRequest" nillable="true" type="tns:SMSRequest" />
+  <xs:complexType name="SMSResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RetMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Success" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SMSResponse" nillable="true" type="tns:SMSResponse" />
+</xs:schema>

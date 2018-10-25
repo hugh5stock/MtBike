@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 30, 32.25" name="MintBicycle">
+  <DataContextMoniker Name="/MintBicycleDataContext" />
+  <nestedChildShapes>
+    <classShape Id="03839419-9e54-4417-9d98-2f39d8bb3b6d" absoluteBounds="0.75, 8.75, 2, 2.4612756347656255">
+      <DataClassMoniker Name="/MintBicycleDataContext/AccountInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee512d00-641f-4707-a272-07242320ddd0" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.901275634765625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1697acc-9292-4095-ab57-c0ee993972e5" absoluteBounds="9.75, 9.75, 2, 2.2764815266927094">
+      <DataClassMoniker Name="/MintBicycleDataContext/AdminRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="acf1bff3-f2f8-43f4-a298-8fa7693990ee" absoluteBounds="9.765, 10.21, 1.9700000000000002, 1.7164815266927083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ed66883-f67c-4eba-8252-d0864cba5a88" absoluteBounds="9.5, 7, 2, 1.7220992024739594">
+      <DataClassMoniker Name="/MintBicycleDataContext/AdminAccessCode" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fcbaf917-b427-4db7-b28d-fd5cb4be2661" absoluteBounds="9.515, 7.4600000000000009, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74eeee3d-d22e-4891-a622-d5d090308c12" absoluteBounds="6.75, 6, 2, 3.7548343912760416">
+      <DataClassMoniker Name="/MintBicycleDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3cf9918-33c2-4934-aebd-b59191e7ae2a" absoluteBounds="6.765, 6.46, 1.9700000000000002, 3.1948343912760415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63f2555d-bc65-47ee-a55b-c24240241bd9" absoluteBounds="3.75, 10.75, 2, 2.2764815266927094">
+      <DataClassMoniker Name="/MintBicycleDataContext/AdminRolePermissionValue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="908a465a-5aa4-4c4c-aa5e-c76c7e2553b5" absoluteBounds="3.765, 11.21, 1.9700000000000002, 1.7164815266927083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="72206a49-4245-4806-af44-3efd33980f60" absoluteBounds="12.75, 0.75, 2, 3.5700402832031246">
+      <DataClassMoniker Name="/MintBicycleDataContext/AdminSystemMenuInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="168d05c2-59e0-457f-960f-5ee9d3ebf245" absoluteBounds="12.765, 1.21, 1.9700000000000002, 3.010040283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2314e390-6ab7-477f-8f6e-1b2b54f800e8" absoluteBounds="12.75, 5.75, 2, 3.3852461751302076">
+      <DataClassMoniker Name="/MintBicycleDataContext/AdvertisingInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0eaca7b8-af68-43bb-b49f-0e831cada739" absoluteBounds="12.765, 6.21, 1.9700000000000002, 2.825246175130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5f9d6b0c-08b4-43d4-8040-51d23d7db896" absoluteBounds="12.75, 10.75, 2, 3.2004520670572916">
+      <DataClassMoniker Name="/MintBicycleDataContext/BatteryInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52bd145d-d3a1-42bd-87a5-07646da3108b" absoluteBounds="12.765, 11.21, 1.9700000000000002, 2.6404520670572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3339c260-1f43-47f8-856a-91d5d2476f6d" absoluteBounds="6.75, 13.75, 2, 7.0811283365885416">
+      <DataClassMoniker Name="/MintBicycleDataContext/Bicycle_Controller_Battery_relevance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b248ae4c-1ef3-489b-92ec-c286e700de54" absoluteBounds="6.765, 14.21, 1.9700000000000002, 6.5211283365885411" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3411236-ffa6-4852-b805-14e24783df8e" absoluteBounds="0.75, 14.75, 2, 4.3092167154947916">
+      <DataClassMoniker Name="/MintBicycleDataContext/BicycleBaseInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="718dc80b-3933-4ed2-ac5a-bf9aa61cb955" absoluteBounds="0.76500000000000057, 15.21, 1.9700000000000002, 3.7492167154947915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2593f10-a651-40fa-98b7-08f1fbef68fb" absoluteBounds="9.75, 14.75, 2, 5.2331872558593773">
+      <DataClassMoniker Name="/MintBicycleDataContext/BicycleLockInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68e5d452-45ee-4299-b741-4d021b5774ed" absoluteBounds="9.765, 15.21, 1.9700000000000002, 4.673187255859375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45575ad8-1bce-4eba-bd67-e59318e06e00" absoluteBounds="12.75, 14.75, 2, 3.0156579589843773">
+      <DataClassMoniker Name="/MintBicycleDataContext/BicycleLockMatchRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b04a6202-75b0-458b-850f-a6c72d4685c4" absoluteBounds="12.765, 15.21, 1.9700000000000002, 2.455657958984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7fcab9a5-916c-4296-a148-b88e41cf1fdc" absoluteBounds="15.75, 0.75, 2, 2.0916874186197916">
+      <DataClassMoniker Name="/MintBicycleDataContext/BicycleTypeInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50d414f9-1e52-4dc3-bf4a-9e705bf535c4" absoluteBounds="15.765, 1.2100000000000009, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eacbb30f-e742-4085-9f33-758bce8d5247" absoluteBounds="15.75, 3.75, 2, 2.6460697428385416">
+      <DataClassMoniker Name="/MintBicycleDataContext/BicyclePart" />
+      <nestedChildShapes>
+        <elementListCompartment Id="090e0f4f-51b8-4db9-b5ac-850afda88f35" absoluteBounds="15.765, 4.2100000000000009, 1.9700000000000002, 2.0860697428385415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c0ea04e6-7eea-4aaa-bbd6-5e3928329687" absoluteBounds="15.75, 7.75, 2, 2.2764815266927059">
+      <DataClassMoniker Name="/MintBicycleDataContext/BreakdownPhotoInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09d2005b-55f5-4c99-924c-f1eee5752051" absoluteBounds="15.765, 8.21, 1.9700000000000002, 1.7164815266927083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e893c386-d62f-4293-af05-e07982d20fac" absoluteBounds="15.75, 11.75, 2, 4.6788049316406273">
+      <DataClassMoniker Name="/MintBicycleDataContext/BreakdownLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="321587da-73b1-4d47-89ea-083baca74f22" absoluteBounds="15.765, 12.21, 1.9700000000000002, 4.118804931640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="959931e7-50bf-481d-82e6-b99e99e8b2cd" absoluteBounds="15.75, 17.75, 2, 6.5267460123697916">
+      <DataClassMoniker Name="/MintBicycleDataContext/BiycleDetection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77727eeb-4b47-4c63-a108-8e956e7764cd" absoluteBounds="15.765, 18.21, 1.9700000000000002, 5.9667460123697911" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="699226be-918e-4bde-bba6-5fbca8d42563" absoluteBounds="18.75, 0.75, 2, 1.3525109863281273">
+      <DataClassMoniker Name="/MintBicycleDataContext/BreakTypeInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="55861d33-5d3c-4b1e-9ea8-33c67bf93b2f" absoluteBounds="18.765, 1.2100000000000009, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3acfc1c-b1c9-4f62-9ca0-e36d55fb1d11" absoluteBounds="18.75, 3.75, 2, 2.4612756347656273">
+      <DataClassMoniker Name="/MintBicycleDataContext/ChargingRule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5c614d6-53cf-49bf-92dd-3ae6e6c85d54" absoluteBounds="18.765, 4.2100000000000009, 1.9700000000000002, 1.901275634765625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1618b523-f649-496a-bcc7-d89c9fb07582" absoluteBounds="0.75, 3.5, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/MintBicycleDataContext/City" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78b0dd4e-f7b1-4dcc-b548-359d23f9d214" absoluteBounds="0.76500000059604645, 3.9600000008940697, 1.9700000000000002, 0.97730509440104163" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="519ef116-a6a6-4990-b50f-e8407a7fb32b" absoluteBounds="18.75, 7.75, 2, 3.0156579589843773">
+      <DataClassMoniker Name="/MintBicycleDataContext/ControllerInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c07a4c4-cadf-45ff-9360-54446796cfd8" absoluteBounds="18.765, 8.21, 1.9700000000000002, 2.455657958984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ed817b0-de66-4407-b277-adaf25311548" absoluteBounds="18.75, 11.75, 2, 2.4612756347656273">
+      <DataClassMoniker Name="/MintBicycleDataContext/CustomerAccessToken" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0a6e816-cdcb-42d1-8628-4c2fb9186b5c" absoluteBounds="18.765, 12.21, 1.9700000000000002, 1.901275634765625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="16df8ee8-f83e-4149-9446-14433715b663" absoluteBounds="18.75, 15.75, 2, 3.7548343912760487">
+      <DataClassMoniker Name="/MintBicycleDataContext/CustomerInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2a7b858-5c3a-485b-ba05-d92b33d14a29" absoluteBounds="18.765, 16.21, 1.9700000000000002, 3.1948343912760415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0fa7f75-2cd8-4d9a-81f9-921c6978f8cb" absoluteBounds="0.75, 20.75, 2, 2.8308638509114559">
+      <DataClassMoniker Name="/MintBicycleDataContext/CustomerRelevanceBicycleLockInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d039581-ce2d-4a8b-95a1-2e3c9e1093d9" absoluteBounds="0.76500000000000057, 21.21, 1.9700000000000002, 2.270863850911458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="338ec841-5659-4bc6-86ac-2e74080ce3bc" absoluteBounds="9.75, 20.75, 2, 2.2764815266927059">
+      <DataClassMoniker Name="/MintBicycleDataContext/Deposit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71127a96-3ff3-40f2-931e-b343b81c51c9" absoluteBounds="9.765, 21.21, 1.9700000000000002, 1.7164815266927083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a5cac83f-65b4-477b-a10a-c73316155562" absoluteBounds="18.75, 20.75, 2, 1.7220992024739559">
+      <DataClassMoniker Name="/MintBicycleDataContext/Dictionary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9a51173-7f4e-4c33-93b1-bddfaf1301da" absoluteBounds="18.765, 21.21, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c8497271-435e-4b42-9b0d-af9bfdaea69a" absoluteBounds="3.5, 1.125, 2, 1.537305094401042">
+      <DataClassMoniker Name="/MintBicycleDataContext/District" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7c81a24-18fc-4580-b507-9b8bd316379e" absoluteBounds="3.5150000005960464, 1.5850000008940697, 1.9700000000000002, 0.97730509440104163" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0a6811aa-3635-4cfa-bc08-27291a78ddfc" absoluteBounds="21.75, 0.75, 2, 2.8308638509114559">
+      <DataClassMoniker Name="/MintBicycleDataContext/dt_manager" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2def64cb-9951-4863-bcff-360a7ad972a8" absoluteBounds="21.765, 1.2100000000000009, 1.9700000000000002, 2.270863850911458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d0dd41a-b3e4-42de-9d1a-0d23af8fac1e" absoluteBounds="3.75, 21.75, 2, 2.2764815266927059">
+      <DataClassMoniker Name="/MintBicycleDataContext/dt_manager_log" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d55137ab-979a-44db-86b7-45783325602e" absoluteBounds="3.7650000000000006, 22.21, 1.9700000000000002, 1.7164815266927083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d4c0c2f-e884-4ba0-8029-8631bfb87e53" absoluteBounds="21.75, 4.75, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/MintBicycleDataContext/dt_manager_role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="601b73df-ac8f-4306-ae35-50a51b0a0d4e" absoluteBounds="21.765, 5.2100000000000009, 1.9700000000000002, 0.97730509440104163" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f553cfd-c6be-4be1-8d20-a0bb6d42864b" absoluteBounds="21.75, 7.75, 2, 1.5373050944010487">
+      <DataClassMoniker Name="/MintBicycleDataContext/dt_manager_role_value" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a364c4a6-1455-444b-96aa-641e0a00bd83" absoluteBounds="21.765, 8.21, 1.9700000000000002, 0.97730509440104163" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0855a456-ea0e-4731-8c6c-42c4e1ae1f45" absoluteBounds="21.75, 10.75, 2, 1.1677168782552059">
+      <DataClassMoniker Name="/MintBicycleDataContext/PayTypeInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bba9af2-e040-45c7-9440-f2b4c530fb6d" absoluteBounds="21.765, 11.21, 1.9700000000000002, 0.60771687825520826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="40394f18-ce7e-4d98-a742-93545583222a" absoluteBounds="6.75, 1, 2, 3.9396284993489576">
+      <DataClassMoniker Name="/MintBicycleDataContext/MyTravel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="551c3681-0495-482a-9a72-b05f254cce38" absoluteBounds="6.7650000005960464, 1.4600000008940697, 1.9700000000000002, 3.379628499348958" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ce44721-919d-45e4-b800-2b05bd2cd4a3" absoluteBounds="21.75, 12.75, 2, 3.3852461751302059">
+      <DataClassMoniker Name="/MintBicycleDataContext/myLog_error" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad64f4c1-dcdc-4171-8ef5-9eaf5151c701" absoluteBounds="21.765, 13.21, 1.9700000000000002, 2.825246175130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f0185e8c-4d98-49d0-993e-452cec1f0eba" absoluteBounds="3.5, 3.375, 2, 3.9396284993489576">
+      <DataClassMoniker Name="/MintBicycleDataContext/Electronic_FenCing" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3abe411-f751-42b7-badd-5930ac5bd5c2" absoluteBounds="3.515, 3.835, 1.9700000000000002, 3.379628499348958" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0f99cf1-edf2-4f20-80a7-3f82bea3d4f2" absoluteBounds="21.75, 17.75, 2, 3.2004520670572987">
+      <DataClassMoniker Name="/MintBicycleDataContext/dt_navigation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aec112b5-5cce-46d0-9de0-4b2ff832c006" absoluteBounds="21.765, 18.21, 1.9700000000000002, 2.6404520670572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e061c92-dfff-41ba-97db-1f628ffefa7e" absoluteBounds="21.75, 21.75, 2, 2.6460697428385487">
+      <DataClassMoniker Name="/MintBicycleDataContext/ProduceBicycleNumberInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5313f75c-0127-41a5-826a-efa348e4ba40" absoluteBounds="21.765, 22.21, 1.9700000000000002, 2.0860697428385415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e279c039-4b18-4a68-a795-3ca9f8d40144" absoluteBounds="24.75, 0.75, 2, 2.0916874186197987">
+      <DataClassMoniker Name="/MintBicycleDataContext/Photo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07ed9a53-f79b-4b8c-b090-05fc0fa77d61" absoluteBounds="24.765, 1.2100000000000009, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95286b6d-212f-4a70-a832-42f78c08c644" absoluteBounds="24.75, 3.75, 2, 5.6027754720052068">
+      <DataClassMoniker Name="/MintBicycleDataContext/PersonTransactionLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc7f942c-37c9-40b8-8413-ae7283a36afa" absoluteBounds="24.765, 4.21, 1.9700000000000002, 5.042775472005208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="09d35a5e-3606-45cd-b2f9-2aca5301b6c2" absoluteBounds="6.75, 24.75, 2, 3.0156579589843773">
+      <DataClassMoniker Name="/MintBicycleDataContext/RepairRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6eea2c7c-d642-4e6e-ba4e-97e702d9f2e3" absoluteBounds="6.7650000000000006, 25.21, 1.9700000000000002, 2.455657958984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="944c373e-07d8-45a1-b531-fb4b54e551be" absoluteBounds="9.75, 24.75, 2, 1.7220992024739594">
+      <DataClassMoniker Name="/MintBicycleDataContext/RepairAccessCode" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b07dbc6e-b948-47f6-b0f7-6ebb41b8b352" absoluteBounds="9.765, 25.21, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="73997757-efe7-4291-8de7-dc6bb8a8bcb7" absoluteBounds="24.75, 10.75, 2, 1.3525109863281273">
+      <DataClassMoniker Name="/MintBicycleDataContext/Province" />
+      <nestedChildShapes>
+        <elementListCompartment Id="635785bb-5cad-4c29-854e-37074486213b" absoluteBounds="24.765, 11.21, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f267f76d-1e12-4ec8-a306-3a4686bcb323" absoluteBounds="24.75, 13.75, 2, 3.9396284993489559">
+      <DataClassMoniker Name="/MintBicycleDataContext/Reservation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6662862e-2aca-40c7-b384-3881ea793233" absoluteBounds="24.765, 14.21, 1.9700000000000002, 3.379628499348958" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a30c958-32df-4189-8a42-ac03bee374d4" absoluteBounds="24.75, 18.75, 2, 4.4940108235677059">
+      <DataClassMoniker Name="/MintBicycleDataContext/ServicePersonInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f8eb80c-e738-441f-bcab-461a0cb20c81" absoluteBounds="24.765, 19.21, 1.9700000000000002, 3.934010823567708" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3b34bd39-f424-4abb-89ee-a7caab35513d" absoluteBounds="24.75, 24.75, 2, 2.0916874186197987">
+      <DataClassMoniker Name="/MintBicycleDataContext/ServicePersonPhoto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd97546a-a0a9-4059-979c-1a78c2e4e0b9" absoluteBounds="24.765, 25.21, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="82d4785e-84b4-4823-b212-893cd0001d86" absoluteBounds="0.75, 25.75, 2, 2.8308638509114559">
+      <DataClassMoniker Name="/MintBicycleDataContext/SIMCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6fcd9ae-546e-4b6a-9f0d-691e839047db" absoluteBounds="0.76500000000000057, 26.21, 1.9700000000000002, 2.270863850911458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b34d340-ec4a-40a4-bfcd-d31f07bc6f47" absoluteBounds="12.75, 25.75, 2, 2.0916874186197987">
+      <DataClassMoniker Name="/MintBicycleDataContext/SmsValidateCode" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6f81d39-51be-4e0f-b8b1-31a916b9c518" absoluteBounds="12.765, 26.21, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b99699ca-36b7-40cf-b4b5-64e51dda362c" absoluteBounds="15.75, 25.75, 2, 2.4612756347656273">
+      <DataClassMoniker Name="/MintBicycleDataContext/SupplierInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="517567e6-5e4e-40b7-9b83-bcbc362a251e" absoluteBounds="15.765, 26.21, 1.9700000000000002, 1.901275634765625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8041385b-103a-4998-9719-a5b21f91986b" absoluteBounds="9.5, 1, 2, 3.9396284993489576">
+      <DataClassMoniker Name="/MintBicycleDataContext/TransactionInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ea74491-6e80-4c89-b06d-6add55501bf4" absoluteBounds="9.5150000005960464, 1.4600000008940697, 1.9700000000000002, 3.379628499348958" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ded2385-f3cf-4dea-a2e2-09f7a56d1ff2" absoluteBounds="18.75, 25.75, 2, 5.6027754720052059">
+      <DataClassMoniker Name="/MintBicycleDataContext/TransactionLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fdda31bf-d723-4ae3-bd3d-55c03d3157e8" absoluteBounds="18.765, 26.21, 1.9700000000000002, 5.042775472005208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="41db33ed-5666-4c08-abeb-9c6bfbccc3f1" absoluteBounds="27.75, 0.75, 2, 2.6460697428385487">
+      <DataClassMoniker Name="/MintBicycleDataContext/UserAuthentication" />
+      <nestedChildShapes>
+        <elementListCompartment Id="036a3329-5b2b-41cc-850f-0e8a7458fa13" absoluteBounds="27.765, 1.2100000000000009, 1.9700000000000002, 2.0860697428385415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="765ca9b4-221d-4514-8ddc-9a771cb7d8a2" absoluteBounds="27.75, 4.75, 2, 4.6788049316406237">
+      <DataClassMoniker Name="/MintBicycleDataContext/UserDepositRechargeRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd388adf-f7f9-489c-bc82-18fd96060970" absoluteBounds="27.765, 5.2100000000000009, 1.9700000000000002, 4.118804931640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="362ba262-a04e-4a2b-93a8-70644891a278" absoluteBounds="27.75, 10.75, 2, 4.6788049316406255">
+      <DataClassMoniker Name="/MintBicycleDataContext/UserInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4a088ae-1fcd-46f3-b9cb-e07efff64468" absoluteBounds="27.765, 11.21, 1.9700000000000002, 4.118804931640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4799b376-d2c3-4c5c-b82a-e7cf5ed7c0bc" absoluteBounds="27.75, 16.75, 2, 4.4940108235677059">
+      <DataClassMoniker Name="/MintBicycleDataContext/UserRechargeRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c5866ca-2826-43a8-92c2-faf459a8cba5" absoluteBounds="27.765, 17.21, 1.9700000000000002, 3.934010823567708" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b84cf2c-878c-4c5f-bf34-57d3186cd22a" absoluteBounds="21.75, 27.75, 2, 4.3092167154947916">
+      <DataClassMoniker Name="/MintBicycleDataContext/YYD_APILog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7cf0f14-6664-4956-8bb7-b67755bb0738" absoluteBounds="21.765, 28.21, 1.9700000000000002, 3.7492167154947915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 7.86104960123698); (9.5 : 7.86104960123698)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MintBicycleDataContext/Admin/Admin_AdminAccessCode" />
+      <nodes>
+        <classShapeMoniker Id="74eeee3d-d22e-4891-a622-d5d090308c12" />
+        <classShapeMoniker Id="8ed66883-f67c-4eba-8252-d0864cba5a88" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 3.5); (1.75 : 1.89365254720052); (3.5 : 1.89365254720052)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MintBicycleDataContext/City/City_District" />
+      <nodes>
+        <classShapeMoniker Id="1618b523-f649-496a-bcc7-d89c9fb07582" />
+        <classShapeMoniker Id="c8497271-435e-4b42-9b0d-af9bfdaea69a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.26865254720052); (3.5 : 4.26865254720052)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MintBicycleDataContext/City/City_Electronic_FenCing" />
+      <nodes>
+        <classShapeMoniker Id="1618b523-f649-496a-bcc7-d89c9fb07582" />
+        <classShapeMoniker Id="f0185e8c-4d98-49d0-993e-452cec1f0eba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 2.96981424967448); (9.5 : 2.96981424967448)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MintBicycleDataContext/MyTravel/MyTravel_TransactionInfo" />
+      <nodes>
+        <classShapeMoniker Id="40394f18-ce7e-4d98-a742-93545583222a" />
+        <classShapeMoniker Id="8041385b-103a-4998-9719-a5b21f91986b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="27643179-4e76-4b30-a736-be60d7cd4047" absoluteBounds="27.75, 22.75, 2, 2.2764815266927059">
+      <DataClassMoniker Name="/MintBicycleDataContext/BicycleLockRelevanceUpgrade" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d6ad980-8b12-4e8f-a1b5-f815edb061d3" absoluteBounds="27.765, 23.21, 1.9700000000000002, 1.7164815266927083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54b4e628-3873-4524-938f-94a3e2e5069d" absoluteBounds="24.75, 27.75, 2, 2.6460697428385416">
+      <DataClassMoniker Name="/MintBicycleDataContext/BicyleLockUpgradeFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cdb4f420-8909-4772-9361-77f5a17bfdd2" absoluteBounds="24.765, 28.21, 1.9700000000000002, 2.0860697428385415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

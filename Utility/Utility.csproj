@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE6D7127-0714-4112-A0D1-3209F3021285}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Utility</RootNamespace>
+    <AssemblyName>Utility</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJson">
+      <HintPath>..\..\..\dll\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alipay\AlipayConstants.cs" />
+    <Compile Include="Alipay\AopDictionary.cs" />
+    <Compile Include="Alipay\AopException.cs" />
+    <Compile Include="Alipay\AopObject.cs" />
+    <Compile Include="Alipay\AopResponse.cs" />
+    <Compile Include="Alipay\DefaultAopClient.cs" />
+    <Compile Include="Alipay\IAopClient.cs" />
+    <Compile Include="Alipay\IAopRequest.cs" />
+    <Compile Include="Alipay\IAopUploadRequest.cs" />
+    <Compile Include="Alipay\ResponseParseItem.cs" />
+    <Compile Include="Alipay\SignItem.cs" />
+    <Compile Include="CommonHelper.cs" />
+    <Compile Include="Common\CacheHelper.cs" />
+    <Compile Include="Common\CommandInfo.cs" />
+    <Compile Include="Common\CommonEnum.cs" />
+    <Compile Include="Common\CustomException.cs" />
+    <Compile Include="Common\DbHelperSQL.cs" />
+    <Compile Include="Common\DESEncrypt.cs" />
+    <Compile Include="Common\DTEnums.cs" />
+    <Compile Include="Common\DTKeys.cs" />
+    <Compile Include="Common\DTRequest.cs" />
+    <Compile Include="Common\EnumExtension.cs" />
+    <Compile Include="Common\ExportExcelHelper.cs" />
+    <Compile Include="Common\FileLog.cs" />
+    <Compile Include="Common\GEOHashHelper.cs" />
+    <Compile Include="Common\LogHelpSql.cs" />
+    <Compile Include="Common\PagedList.cs" />
+    <Compile Include="Common\PubConstant.cs" />
+    <Compile Include="Common\ResultCodeEnum.cs" />
+    <Compile Include="Common\SerializationHelper.cs" />
+    <Compile Include="Common\Utils.cs" />
+    <Compile Include="Common\XmlHelper.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="CoordinateHelper.cs" />
+    <Compile Include="Domain\ExtendParams.cs" />
+    <Compile Include="Domain\RoyaltyDetailInfos.cs" />
+    <Compile Include="Domain\RoyaltyInfo.cs" />
+    <Compile Include="Domain\TradeFundBill.cs" />
+    <Compile Include="Hash\HashUtility.cs" />
+    <Compile Include="Hash\PasswordHash.cs" />
+    <Compile Include="Jayrock\Json\BooleanObject.cs" />
+    <Compile Include="Jayrock\Json\Collections\KeyedCollection.cs" />
+    <Compile Include="Jayrock\Json\Compat.cs" />
+    <Compile Include="Jayrock\Json\Configuration\DictionarySectionHandler.cs" />
+    <Compile Include="Jayrock\Json\Configuration\ListSectionHandler.cs" />
+    <Compile Include="Jayrock\Json\Configuration\TypeListSectionHandler.cs" />
+    <Compile Include="Jayrock\Json\Diagnostics\DebugString.cs" />
+    <Compile Include="Jayrock\Json\IndentedTextWriter.cs" />
+    <Compile Include="Jayrock\Json\InternetDate.cs" />
+    <Compile Include="Jayrock\Json\Json\BufferedCharReader.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\AnyType.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\AnyImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ArrayImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\BooleanExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\BooleanImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ByteArrayExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ByteArrayImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ComponentExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ComponentImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DataRowExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DataRowViewExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DataSetExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DataTableExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DataViewExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DateTimeExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DateTimeImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DictionaryExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\DictionaryImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\EnumerableExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\EnumImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ExportAwareExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ExporterBase.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\GuidImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ImportAwareImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ImporterBase.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\ListImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\NameValueCollectionExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\NameValueCollectionImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\NumberExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\NumberImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\StringExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\Converters\StringImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\CustomTypeDescriptor.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\ExportContext.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\ExporterCollection.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\ExporterListSectionHandler.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\IExporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\IImporter.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\IJsonExportable.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\IJsonImportable.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\ImportContext.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\ImporterCollection.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\ImporterListSectionHandler.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\JsonConvert.cs" />
+    <Compile Include="Jayrock\Json\Json\Conversion\JsonIgnoreAttribute.cs" />
+    <Compile Include="Jayrock\Json\Json\EmptyJsonWriter.cs" />
+    <Compile Include="Jayrock\Json\Json\InvalidMemberException.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonArray.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonBoolean.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonException.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonNull.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonNumber.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonObject.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonReader.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonReaderBase.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonRecorder.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonString.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonTextReader.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonTextWriter.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonToken.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonTokenClass.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonWriter.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonWriterBase.cs" />
+    <Compile Include="Jayrock\Json\Json\JsonWriterBracket.cs" />
+    <Compile Include="Jayrock\Json\UnixTime.cs" />
+    <Compile Include="Jayrock\Mask.cs" />
+    <Compile Include="LogHelper\FileHelper.cs" />
+    <Compile Include="LogHelper\LogHelper.cs" />
+    <Compile Include="LogHelper\LogMessage.cs" />
+    <Compile Include="LogHelper\siteconfig.cs" />
+    <Compile Include="LogHelper\SiteConfigFun.cs" />
+    <Compile Include="Mail\MailUtility.cs" />
+    <Compile Include="Parser\AopAttribute.cs" />
+    <Compile Include="Parser\AopJsonParser.cs" />
+    <Compile Include="Parser\AopJsonReader.cs" />
+    <Compile Include="Parser\AopModelParser.cs" />
+    <Compile Include="Parser\AopXmlParser.cs" />
+    <Compile Include="Parser\EncryptParseItem.cs" />
+    <Compile Include="Parser\IAopParser.cs" />
+    <Compile Include="Parser\IAopReader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Response\AlipayTradeAppPayResponse.cs" />
+    <Compile Include="Response\AlipayTradeCancelResponse.cs" />
+    <Compile Include="Response\AlipayTradeCloseResponse.cs" />
+    <Compile Include="Response\AlipayTradeRefundResponse.cs" />
+    <Compile Include="Rquest\AlipayTradeAppPayModel.cs" />
+    <Compile Include="Rquest\AlipayTradeAppPayRequest.cs" />
+    <Compile Include="Rquest\AlipayTradeRefundRequest.cs" />
+    <Compile Include="SignUtility.cs" />
+    <Compile Include="Util\AlipayEncrypt.cs" />
+    <Compile Include="Util\AlipaySignature.cs" />
+    <Compile Include="Util\AopUtils.cs" />
+    <Compile Include="Util\FileItem.cs" />
+    <Compile Include="Util\RSACryptoServiceProviderExtension.cs" />
+    <Compile Include="Util\WebUtils.cs" />
+    <Compile Include="ValidateCode\IValidateCodeUtility.cs" />
+    <Compile Include="ValidateCode\ValidateCodeUtility.cs" />
+    <Compile Include="WeiXinConfig\Config.cs" />
+    <Compile Include="WeiXinConfig\Data.cs" />
+    <Compile Include="WeiXinConfig\Exception.cs" />
+    <Compile Include="WeiXinConfig\HttpService.cs" />
+    <Compile Include="WeiXinConfig\JsApiPay.cs" />
+    <Compile Include="WeiXinConfig\Log.cs" />
+    <Compile Include="WeiXinConfig\WxPayApi.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="cert\apiclient_cert.p12" />
+    <None Include="cert\apiclient_cert.pem" />
+    <None Include="cert\apiclient_key.pem" />
+    <None Include="cert\rootca.pem" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理服务\all.pem" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理服务\apiclient_cert.pem" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理服务\apiclient_key.pem" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理服务\regsvr.bat" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理服务\unregsvr.bat" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理服务\WeixinPayProxy.exp" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理服务\WeixinPayProxy.lib" />
+    <None Include="cert\windows组件版\CURL版本微信支付代理组件.docx" />
+    <None Include="cert\【微信支付】证书文件使用说明.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Utility.dll" />
+    <Content Include="bin\Debug\Utility.pdb" />
+    <Content Include="bin\Release\LitJson.dll" />
+    <Content Include="bin\Release\Utility.dll" />
+    <Content Include="bin\Release\Utility.pdb" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\Interop.WeixinPayProxyLib.dll" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\libcurl.dll" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\libeay32.dll" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\ssleay32.dll" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\TestWeixinPayProxy.exe" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\WeixinPayProxy.dll" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\WeixinPayProxy.pdb" />
+    <Content Include="cert\windows组件版\CURL版本微信支付代理服务\zlib1.dll" />
+    <Content Include="cert\证书使用说明.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

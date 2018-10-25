@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4DA3358-EB6B-4932-91BA-2A2B980644F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MintCyclingService</RootNamespace>
+    <AssemblyName>MintCyclingService</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppNotificationPushService">
+      <HintPath>..\packages\NotificationPush\AppNotificationPushService.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.4.3.0\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="cn.jpush.api, Version=3.2.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\cn.jpush.api.3.2.7.0\lib\net40\cn.jpush.api.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\..\dll\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.5.4.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.5.4\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminAccessCode\AdminAccessCodeService.cs" />
+    <Compile Include="AdminAccessCode\IAdminAccessCodeService.cs" />
+    <Compile Include="AdminLog\ManagerLogEnum.cs" />
+    <Compile Include="AdminLog\ManagerLogModel.cs" />
+    <Compile Include="AdminLog\ManagerLogService.cs" />
+    <Compile Include="AdminLog\ImanagerlogService.cs" />
+    <Compile Include="Admin\AdminEnum.cs" />
+    <Compile Include="Admin\AdminModel.cs" />
+    <Compile Include="Admin\AdminService.cs" />
+    <Compile Include="Admin\IAdminService.cs" />
+    <Compile Include="alipay\AlipayTradeEnum.cs" />
+    <Compile Include="alipay\AlipayTradeModel.cs" />
+    <Compile Include="alipay\AlipayTradeService.cs" />
+    <Compile Include="alipay\IAlipayTradeService.cs" />
+    <Compile Include="BaiDu\BaiduService.cs" />
+    <Compile Include="BaiDu\IBaiduService.cs" />
+    <Compile Include="BicLock\BicLockModel.cs" />
+    <Compile Include="BicLock\BicLockService.cs" />
+    <Compile Include="BicLock\IBicLockService.cs" />
+    <Compile Include="BicycleHandle\BicycleHandleEnum.cs" />
+    <Compile Include="BicycleHandle\BicycleHandleModel.cs" />
+    <Compile Include="BicycleHandle\BicycleHandleService.cs" />
+    <Compile Include="BicycleHandle\IBicycleHandleService.cs" />
+    <Compile Include="Breakdown\BreakdownEnum.cs" />
+    <Compile Include="Breakdown\BreakdownModel.cs" />
+    <Compile Include="Breakdown\BreakdownService.cs" />
+    <Compile Include="Breakdown\IBreakdownService.cs" />
+    <Compile Include="ChargingRules\ChargingRuleService.cs" />
+    <Compile Include="ChargingRules\ChargingRuleEnum.cs" />
+    <Compile Include="ChargingRules\ChargingRuleModel.cs" />
+    <Compile Include="ChargingRules\IChargingRuleService.cs" />
+    <Compile Include="Common\CustomException.cs" />
+    <Compile Include="Common\EncryptTool.cs" />
+    <Compile Include="Common\FileInfoModel.cs" />
+    <Compile Include="Common\FileUtility.cs" />
+    <Compile Include="Common\GenericQuery.cs" />
+    <Compile Include="Common\Helper.cs" />
+    <Compile Include="Common\ModelEnum.cs" />
+    <Compile Include="Common\OrderHelper.cs" />
+    <Compile Include="Common\PagedList.cs" />
+    <Compile Include="Common\ResPrompt.cs" />
+    <Compile Include="Customer\ICustomerService.cs" />
+    <Compile Include="Customer\CustomerEnum.cs" />
+    <Compile Include="Customer\CustomerModel.cs" />
+    <Compile Include="Customer\CustomerService.cs" />
+    <Compile Include="BaiDu\BaiduModel.cs" />
+    <Compile Include="Cycling\CyclingEnum.cs" />
+    <Compile Include="Cycling\CyclingModel.cs" />
+    <Compile Include="Cycling\CyclingService.cs" />
+    <Compile Include="Cycling\ICyclingService.cs" />
+    <Compile Include="Cycling\ReservationTaskMgr.cs" />
+    <Compile Include="Electronicfence\ElectronicfenceModel.cs" />
+    <Compile Include="Electronicfence\ElectronicfenceService.cs" />
+    <Compile Include="Electronicfence\IElectronicfenceService.cs" />
+    <Compile Include="Handler\CyclingExpenseHelper.cs" />
+    <Compile Include="Handler\NotificationPush.cs" />
+    <Compile Include="Handler\SMS\SMSUtility.cs" />
+    <Compile Include="JPush\IJPushService.cs" />
+    <Compile Include="JPush\JPushModel.cs" />
+    <Compile Include="JPush\JPushService.cs" />
+    <Compile Include="Login\ILoginService.cs" />
+    <Compile Include="Login\LoginEnum.cs" />
+    <Compile Include="Login\LoginModel.cs" />
+    <Compile Include="Login\LoginService.cs" />
+    <Compile Include="LogServer\ILogService.cs" />
+    <Compile Include="LogServer\LogService.cs" />
+    <Compile Include="MicroMsg\MicroMsgVistor.cs" />
+    <Compile Include="Photo\IPhotoService.cs" />
+    <Compile Include="Photo\PhotoEnum.cs" />
+    <Compile Include="Photo\PhotoInfo_Model.cs" />
+    <Compile Include="Photo\PhotoService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Remote\IRemoteService.cs" />
+    <Compile Include="Remote\RemoteEnum.cs" />
+    <Compile Include="Remote\RemoteModel.cs" />
+    <Compile Include="Remote\RemoteService.cs" />
+    <Compile Include="Role\AdminRoleEnum.cs" />
+    <Compile Include="Role\AdminRoleModel.cs" />
+    <Compile Include="Role\AdminRoleService.cs" />
+    <Compile Include="Role\IAdminRoleService.cs" />
+    <Compile Include="Service References\SMSService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ServicePerson\IServicePersonaService.cs" />
+    <Compile Include="ServicePerson\ServicePersonEnum.cs" />
+    <Compile Include="ServicePerson\ServicePersonModel.cs" />
+    <Compile Include="ServicePerson\ServicePersonService.cs" />
+    <Compile Include="Statistics\StatisticsEnum.cs" />
+    <Compile Include="Statistics\StatisticsModel.cs" />
+    <Compile Include="Statistics\StatisticsService.cs" />
+    <Compile Include="Statistics\IStatisticsService.cs" />
+    <Compile Include="Supplier\ISupplierService.cs" />
+    <Compile Include="Supplier\SupplierEnum.cs" />
+    <Compile Include="Supplier\SupplierModel.cs" />
+    <Compile Include="Supplier\SupplierService.cs" />
+    <Compile Include="Transaction\ITransactionInfoService.cs" />
+    <Compile Include="Transaction\TransactionEnum.cs" />
+    <Compile Include="Transaction\TransactionInfoService.cs" />
+    <Compile Include="Transaction\TransactionModel.cs" />
+    <Compile Include="UserAccount\IUserAccountService.cs" />
+    <Compile Include="UserAccount\UserAccountModel.cs" />
+    <Compile Include="UserAccount\UserAccountService.cs" />
+    <Compile Include="Common\ResultModel.cs" />
+    <Compile Include="Common\SMSUtility.cs" />
+    <Compile Include="UserMemberAccessCode\IUserMemberAccessCodeService.cs" />
+    <Compile Include="UserMemberAccessCode\UserMemberAccessCodeService.cs" />
+    <Compile Include="UserRecharge\IUserRechargeRecordService.cs" />
+    <Compile Include="UserRecharge\UserRechargeRecordModel.cs" />
+    <Compile Include="UserRecharge\UserRechargeRecordService.cs" />
+    <Compile Include="User\IUserInfoService.cs" />
+    <Compile Include="User\UserInfoEnum.cs" />
+    <Compile Include="User\UserInfoModel.cs" />
+    <Compile Include="User\UserInfoService.cs" />
+    <Compile Include="WeixinApliay\IWeixinAlipayTradeService.cs" />
+    <Compile Include="WeixinApliay\Notify.cs" />
+    <Compile Include="WeixinApliay\ResultNotify.cs" />
+    <Compile Include="WeixinApliay\WeixinAlipayTradeModel.cs" />
+    <Compile Include="WeixinApliay\WeixinAlipayTradeService.cs" />
+    <Compile Include="WeixinApliay\WeixinRefund.cs" />
+    <Compile Include="WxJpush\IWxJPushService.cs" />
+    <Compile Include="WxJpush\JPushModel.cs" />
+    <Compile Include="WxJpush\wxJPushService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Service References\SMSService\MintCyclingService.SMSService.SMSResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SMSService\SMSService.wsdl" />
+    <None Include="Service References\SMSService\SMSService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SMSService\SMSService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SMSService\SMSService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SMSService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SMSService\SMSService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SMSService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SMSService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SMSService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MintCyclingData\MintCyclingData.csproj">
+      <Project>{13e411c8-1c6c-4dc0-a4ea-bcf31f0ca053}</Project>
+      <Name>MintCyclingData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{be6d7127-0714-4112-a0d1-3209f3021285}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
